@@ -15,3 +15,14 @@ This project was developed and trained in a Kaggle Notebook environment.
 
 While the code can run on a CPU, training the Offline RL agent (CQL) is significantly faster on a GPU. If running locally, ensure you have CUDA installed.
 
+**Key Findings-** 
+Deep Learning Model: Achieves high AUC in identifying defaulters but is "profit-blind," rejecting profitable high-interest loans.
+RL Agent: Successfully identifies a "High Risk, High Reward" segment, approving applicants that the DL model rejected but who ultimately contributed positive yield to the portfolio.
+
+**Technologies Used**
+Python 3.10+
+PyTorch: Neural Network construction.
+d3rlpy: Offline Reinforcement Learning (CQL Algorithm).
+Scikit-Learn: Data preprocessing and evaluation metrics.
+Pandas/NumPy: Data manipulation and reward engineering.
+
