@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+torch>=2.0.0
+d3rlpy>=2.0.0
